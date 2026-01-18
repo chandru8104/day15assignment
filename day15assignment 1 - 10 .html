@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // task 1
+
+        var num1 = Number(prompt("Enter the num1:"));
+        var num2 = Number(prompt("Enter the num2:"));
+        console.log("Their Sum:", num1 + num2);
+        console.log("Difference:",num1 - num2);
+        console.log("Product:",num1 * num2);
+        console.log("Quotient:",num1 / num2);
+        console.log("Remainder:",num1 % num2);
+
+        // Task 2---------------------------------------------------------------------------------------
+
+        var a =150
+        a+=5;
+        a-=3;
+        a*=2;
+        a/=4;
+        console.log("Final value:", a);
+
+        // Task 3---------------------------------------------------------------------------------------
+
+        var a = 150;
+        var b = 100;
+        console.log("if they are equal:",a==b);
+        console.log("if the first is greater than the second:",a>b);
+        console.log("if the first is less than or equal to the second:",a<=b);
+
+        // Task 4---------------------------------------------------------------------------------------
+
+        var a = true;
+        var b = true;
+        console.log(a&&b); 
+        console.log(a||b);
+        console.log(!a);
+        console.log(!b);
+
+        // Task 5---------------------------------------------------------------------------------------
+
+        var num =21;
+        let res = num % 2==0 ? "even" : "odd"
+        console.log("The Given Number is:",res);
+
+        // Task 6---------------------------------------------------------------------------------------
+
+        let salary = 65000;
+        salary+= 20/100;
+        salary+= 10/100;
+        salary-= 8/100;
+        console.log("Employee's Net Salary:",salary)
+
+        // Task 7---------------------------------------------------------------------------------------
+
+        var marks = prompt("Enter your Mark:");
+
+        if(marks > 0 && marks <=100)
+        {
+
+        if(marks>=90 && marks<=100)
+        console.log("A");
+        else if(marks>=75 && marks<=89)
+        console.log("B")
+        else if(marks>=50 && marks<=74)
+        console.log("C")
+        else
+        console.log("Fail")
+        }
+        else
+        console.log("Invalid marks")
+
+        // Task 8-------------------------------------------------------------------------------------------
+
+        const username = "CHANDRU";
+        const password = "chandru8104";
+
+        let username1 = prompt("Enter your username:");
+        let password1 = prompt("Enter your password:");
+
+        if(username===username1 && password ===password1)
+        console.log("Login Successful");
+        else
+        console.log("Login Failed");
+
+        // Task 9---------------------------------------------------------------------------------------
+
+        var Unit = prompt("Enter the Units:");
+        var bill;
+
+        if(Unit >=0 && Unit <=100)
+        console.log("The total bill:",bill=Unit*5);
+
+        else if (Unit >100 && Unit<=200)
+        console.log("The total bill:",bill=Unit*7);
+        else
+         console.log("The total bill:",bill=Unit*10);
+
+        // Task 10---------------------------------------------------------------------------------------
+
+        let amount = prompt("Enter the Purchase Amount:");
+        let PREmember = true;
+        let result = (amount>5000 && PREmember) ? "DISCOUNT APPLIED" : "NO DISCOUNT"
+        console.log(result);
+
+
+    </script>
+</head>
+<body>
+    welcome to the javascript
+</body>
+</html>
